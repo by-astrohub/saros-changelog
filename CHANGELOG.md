@@ -7,6 +7,18 @@ went to private testers only; Beta 03 was the first public build.
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-10-05
+
+### Added
+- Saros Lite and Saros Pro: every install runs Pro for 2 months, then becomes Lite.
+  Pro features lock instead of disappearing, and clicking one opens a paywall
+- A plan line at the top of the gear, right-click and menu bar menus, which now share one menu
+- Settings > Plan (was License) with the plan, trial days left and a Lite / Pro comparison
+- License keys are entered in place in Settings > Plan, with the reason shown when a key is rejected
+
+### Changed
+- Get Saros Pro… asks before opening the mail app
+
 ## [1.0.1] - 2026-10-04
 
 ### Added
@@ -75,7 +87,8 @@ First release. Same features as Beta 03.
 - File-level collision warnings across worktrees
 - Floating glass pill on displays without a notch
 
-[Unreleased]: ../../compare/v1.0.1...HEAD
+[Unreleased]: ../../compare/v1.2.0...HEAD
+[1.2.0]: ../../releases/tag/v1.2.0
 [1.0.1]: ../../releases/tag/v1.0.1
 [1.0.0]: ../../releases/tag/v1.0.0
 [0.1.0-beta.03]: ../../releases/tag/v0.1.0-beta.03
