@@ -1,11 +1,20 @@
 # Changelog
 
 All notable changes to Saros. Format based on [Keep a Changelog](https://keepachangelog.com).
-Saros is in beta. Beta builds are unsigned previews for Apple Silicon; each one has
+Builds are for Apple Silicon and are not yet signed or notarized; each one has
 release notes and downloads under [Releases](../../releases). Beta 01 and Beta 02
-went to private testers only; Beta 03 is the first public build.
+went to private testers only; Beta 03 was the first public build.
 
 ## [Unreleased]
+
+## [1.0.0] - 2026-10-04
+
+First release. Same features as Beta 03.
+
+### Changed
+- The app's bundle identifier is now `com.astrohub.saros`. After replacing a beta,
+  macOS asks once more for Automation permission. Trial, license and settings carry over.
+- Install steps for macOS 15 and newer, where Control-click > Open no longer bypasses Gatekeeper
 
 ## [0.1.0-beta.03] - 2026-10-02
 
@@ -53,5 +62,6 @@ went to private testers only; Beta 03 is the first public build.
 - File-level collision warnings across worktrees
 - Floating glass pill on displays without a notch
 
-[Unreleased]: ../../compare/v0.1.0-beta.03...HEAD
+[Unreleased]: ../../compare/v1.0.0...HEAD
+[1.0.0]: ../../releases/tag/v1.0.0
 [0.1.0-beta.03]: ../../releases/tag/v0.1.0-beta.03

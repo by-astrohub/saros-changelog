@@ -27,13 +27,13 @@ Click a row to bring that agent's terminal, VS Code window or Claude desktop to 
 ---
 
 Native macOS app (Swift + SwiftUI). macOS 14 or newer. Displays without a notch get a
-floating glass pill instead. Shipping 2026.
+floating glass pill instead.
 Buy once: no subscription, no account, no telemetry. Everything stays on your Mac.
 
 **This repository hosts the public changelog, release notes and issue tracker. The
 application source is closed.**
 
-- [Download Beta 03](https://github.com/by-astrohub/saros-changelog/releases/download/v0.1.0-beta.03/Saros-Beta-03-arm64.dmg) (Apple Silicon, macOS 14+)
+- [Download Saros 1.0](https://github.com/by-astrohub/saros-changelog/releases/download/v1.0.0/Saros-1.0.0-arm64.dmg) (Apple Silicon, macOS 14+)
 - [Changelog](CHANGELOG.md)
 - [Releases](../../releases)
 - [Report an issue](../../issues)
