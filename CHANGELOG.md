@@ -7,8 +7,12 @@ went to private testers only; Beta 03 was the first public build.
 
 ## [Unreleased]
 
-### Planned
-- One-step installer for Claude Code hooks, like the one Codex already has
+## [1.0.1] - 2026-10-04
+
+### Added
+- `Install Claude Hooks.command` in the ZIP connects Claude Code in one step: it backs up
+  `~/.claude/settings.json`, keeps every other hook, updates hand-written Saros entries in place,
+  and takes them out again with `--remove`
 
 ## [1.0.0] - 2026-10-04
 
@@ -71,6 +75,7 @@ First release. Same features as Beta 03.
 - File-level collision warnings across worktrees
 - Floating glass pill on displays without a notch
 
-[Unreleased]: ../../compare/v1.0.0...HEAD
+[Unreleased]: ../../compare/v1.0.1...HEAD
+[1.0.1]: ../../releases/tag/v1.0.1
 [1.0.0]: ../../releases/tag/v1.0.0
 [0.1.0-beta.03]: ../../releases/tag/v0.1.0-beta.03
