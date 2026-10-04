@@ -7,6 +7,9 @@ went to private testers only; Beta 03 was the first public build.
 
 ## [Unreleased]
 
+### Planned
+- One-step installer for Claude Code hooks, like the one Codex already has
+
 ## [1.0.0] - 2026-10-04
 
 First release. Same features as Beta 03.
@@ -15,6 +18,12 @@ First release. Same features as Beta 03.
 - The app's bundle identifier is now `com.astrohub.saros`. After replacing a beta,
   macOS asks once more for Automation permission. Trial, license and settings carry over.
 - Install steps for macOS 15 and newer, where Control-click > Open no longer bypasses Gatekeeper
+
+### Known limitations
+- Claude Code hooks are added to `~/.claude/settings.json` by hand; the release notes have the entries to copy.
+  Codex has an installer (`Install Saros Monitoring.command`).
+- Not signed or notarized yet.
+- No launch at login yet.
 
 ## [0.1.0-beta.03] - 2026-10-02
 
