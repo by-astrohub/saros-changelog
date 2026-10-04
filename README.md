@@ -33,6 +33,7 @@ Buy once: no subscription, no account, no telemetry. Everything stays on your Ma
 **This repository hosts the public changelog, release notes and issue tracker. The
 application source is closed.**
 
+- [Download Beta 03](https://github.com/by-astrohub/saros-changelog/releases/download/v0.1.0-beta.03/Saros-Beta-03-arm64.dmg) (Apple Silicon, macOS 14+)
 - [Changelog](CHANGELOG.md)
 - [Releases](../../releases)
 - [Report an issue](../../issues)

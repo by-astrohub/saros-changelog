@@ -2,9 +2,12 @@
 
 All notable changes to Saros. Format based on [Keep a Changelog](https://keepachangelog.com).
 Saros is in beta. Beta builds are unsigned previews for Apple Silicon; each one has
-release notes and downloads under [Releases](../../releases).
+release notes and downloads under [Releases](../../releases). Beta 01 and Beta 02
+went to private testers only; Beta 03 is the first public build.
 
 ## [Unreleased]
+
+## [0.1.0-beta.03] - 2026-10-02
 
 ### Added
 - Answer an agent's question from the notch, not only Allow / Deny
@@ -26,12 +29,12 @@ release notes and downloads under [Releases](../../releases).
 - Auto-mode calls are no longer held waiting for a decision
 - The panel only redraws when something moves, so it idles at near-zero CPU
 
-## [0.1.0-beta.02.1] - 2026-09-28
+## 0.1.0-beta.02.1 - 2026-09-28
 
 ### Fixed
 - Panel resources load from inside `Saros.app`
 
-## [0.1.0-beta.02] - 2026-09-22
+## 0.1.0-beta.02 - 2026-09-22
 
 ### Added
 - Codex usage from local session logs: five-hour and weekly percentages with reset countdowns
@@ -39,7 +42,7 @@ release notes and downloads under [Releases](../../releases).
 - Codex monitoring, installed by `Install Saros Monitoring.command` with a dated backup of your hooks
 - Packaged as a DMG with a Finder-launchable app and a demo mode
 
-## [0.1.0-beta.01]
+## 0.1.0-beta.01
 
 ### Added
 - Notch panel with collapsed, summary and decision states
@@ -50,7 +53,5 @@ release notes and downloads under [Releases](../../releases).
 - File-level collision warnings across worktrees
 - Floating glass pill on displays without a notch
 
-[Unreleased]: ../../compare/v0.1.0-beta.02.1...HEAD
-[0.1.0-beta.02.1]: ../../releases/tag/v0.1.0-beta.02.1
-[0.1.0-beta.02]: ../../releases/tag/v0.1.0-beta.02
-[0.1.0-beta.01]: ../../releases/tag/v0.1.0-beta.01
+[Unreleased]: ../../compare/v0.1.0-beta.03...HEAD
+[0.1.0-beta.03]: ../../releases/tag/v0.1.0-beta.03
