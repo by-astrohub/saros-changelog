@@ -7,6 +7,20 @@ went to private testers only; Beta 03 was the first public build.
 
 ## [Unreleased]
 
+## [1.3.2] - 2026-10-05
+
+### Added
+- Antigravity IDE sessions open the window holding the session's folder, as VS Code
+  sessions already did
+
+### Fixed
+- Clicking a Claude desktop session opened Claude on whichever session it showed last.
+  It now opens the session you clicked
+- Clicking a Warp session said the app was no longer available. It now brings Warp
+  forward; with several Warp windows open, that is the one you used last
+- On macOS 26, clicking a session whose app has one window said the window could not
+  be identified. It now opens that window, including on another Space or when minimized
+
 ## [1.3.1] - 2026-10-05
 
 ### Fixed
@@ -115,7 +129,8 @@ First release. Same features as Beta 03.
 - File-level collision warnings across worktrees
 - Floating glass pill on displays without a notch
 
-[Unreleased]: ../../compare/v1.3.1...HEAD
+[Unreleased]: ../../compare/v1.3.2...HEAD
+[1.3.2]: ../../releases/tag/v1.3.2
 [1.3.1]: ../../releases/tag/v1.3.1
 [1.3.0]: ../../releases/tag/v1.3.0
 [1.2.1]: ../../releases/tag/v1.2.1
