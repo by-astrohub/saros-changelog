@@ -7,6 +7,22 @@ went to private testers only; Beta 03 was the first public build.
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-10-05
+
+### Added
+- Settings > Agents connects Claude Code, Codex and Claude usage with one Connect all, and
+  opens on its own the first time Saros starts. Each agent shows whether it is connected,
+  needs an update, or (for Codex) is waiting for you to trust the hooks in `/hooks`
+- Open Saros at login, and Uninstall, which takes Saros out of every agent and moves the
+  app to the Trash while your plan stays
+- Saros offers to move itself into Applications when it is opened straight from the disk image
+
+### Changed
+- Agents reach Saros through a link Saros keeps pointed at the installed app, so moving or
+  updating the app no longer disconnects them
+- Connecting no longer needs the ZIP or Python; the ZIP's `.command` files still work
+- The disk image window shows where to drag Saros and how to approve the first open
+
 ## [1.2.1] - 2026-10-05
 
 ### Fixed
