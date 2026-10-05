@@ -7,6 +7,12 @@ went to private testers only; Beta 03 was the first public build.
 
 ## [Unreleased]
 
+## [1.3.1] - 2026-10-05
+
+### Fixed
+- Clicking the gear in the notch opened its menu with a scroll arrow (^) in place of the
+  first row, which hid the plan line. The menu now opens fully below the menu bar
+
 ## [1.3.0] - 2026-10-05
 
 ### Added
@@ -109,7 +115,10 @@ First release. Same features as Beta 03.
 - File-level collision warnings across worktrees
 - Floating glass pill on displays without a notch
 
-[Unreleased]: ../../compare/v1.2.0...HEAD
+[Unreleased]: ../../compare/v1.3.1...HEAD
+[1.3.1]: ../../releases/tag/v1.3.1
+[1.3.0]: ../../releases/tag/v1.3.0
+[1.2.1]: ../../releases/tag/v1.2.1
 [1.2.0]: ../../releases/tag/v1.2.0
 [1.0.1]: ../../releases/tag/v1.0.1
 [1.0.0]: ../../releases/tag/v1.0.0
