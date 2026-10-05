@@ -7,6 +7,12 @@ went to private testers only; Beta 03 was the first public build.
 
 ## [Unreleased]
 
+## [1.2.1] - 2026-10-05
+
+### Fixed
+- Saros 1.2.0 downloaded from the website opened as "damaged" and macOS offered only Move to Trash.
+  The app is now signed as a whole bundle, so the first open works as described in the install steps
+
 ## [1.2.0] - 2026-10-05
 
 ### Added
