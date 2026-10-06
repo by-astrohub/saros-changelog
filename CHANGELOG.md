@@ -7,6 +7,16 @@ went to private testers only; Beta 03 was the first public build.
 
 ## [Unreleased]
 
+## [1.3.4] - 2026-10-06
+
+### Fixed
+- Settings opened lower on the screen each time, until only its title bar showed above
+  the Dock and nothing in it could be clicked. It now keeps its place and always opens
+  on screen
+
+### Changed
+- The Settings window is titled Settings on every tab, instead of repeating the tab's name
+
 ## [1.3.3] - 2026-10-06
 
 ### Added
