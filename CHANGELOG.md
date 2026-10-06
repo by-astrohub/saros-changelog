@@ -7,6 +7,17 @@ went to private testers only; Beta 03 was the first public build.
 
 ## [Unreleased]
 
+## [1.3.3] - 2026-10-06
+
+### Added
+- Antigravity CLI support. Connect it in Settings > Agents (Connect all includes it);
+  its sessions show up in the notch, and commands and file writes wait there for you.
+  Deny blocks the call. Allow currently hands it to Antigravity's own prompt, because
+  Antigravity does not yet accept an allow from a hook
+- Saros checks GitHub once a day for a newer version and says so in its menu and in
+  Settings > General, with a link to the release notes. The request carries no
+  account, license, version or usage data. Turn it off in Settings > General
+
 ## [1.3.2] - 2026-10-05
 
 ### Added
