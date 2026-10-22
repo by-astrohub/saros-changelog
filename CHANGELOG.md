@@ -7,6 +7,22 @@ went to private testers only; Beta 03 was the first public build.
 
 ## [Unreleased]
 
+## [1.3.5] - 2026-10-22
+
+### Added
+- Gemini CLI support. Connect it in Settings > Agents (Connect all includes it); its
+  sessions show up in the notch, and shell commands and file writes wait there for you.
+  Deny blocks the call. Saros keeps every other setting and hook in Gemini CLI's
+  settings file. Built from Google's hook documentation: Gemini CLI is no longer
+  offered to individual accounts, so it has not been tried against a live session
+
+### Fixed
+- Antigravity CLI 1.4 renamed its file tools, so its file writes stopped waiting in the
+  notch and only commands were held. Writes wait again, on Antigravity CLI 1.3 and 1.4
+- When Saros was stopped by the system or another tool while Settings, a card or its
+  menu was open, the Dock could stop magnifying icons until it was restarted. Saros now
+  hands focus back and closes cleanly first
+
 ## [1.3.4] - 2026-10-06
 
 ### Fixed
